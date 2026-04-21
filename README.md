@@ -21,4 +21,4 @@
 ---
 [![](https://visitcount.itsvg.in/api?id=Theesthan&icon=2&color=8)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+[![Eko profile views](https://u8views.com/api/v1/github/profiles/101927840/views/day-week-month-total-count.svg)](https://u8views.com/github/Theesthan)
