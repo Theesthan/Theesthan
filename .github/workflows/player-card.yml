@@ -1,0 +1,30 @@
+name: player-card
+
+on:
+  schedule:
+    - cron: '17 3 * * *'   # ~08:47 IST, always commits
+    - cron: '43 13 * * *'  # ~19:13 IST, commits about half the time
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test
+        run: python3 -m unittest discover -s scripts
+      - name: Render SVGs
+        run: python3 scripts/gen.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit
+        env:
+          RUN: ${{ github.event.schedule == '43 13 * * *' && 'evening' || 'morning' }}
+        run: |
+          # Author must be an email linked to the account, or the contribution graph ignores it.
+          git config user.name "Theesthan"
+          git config user.email "101927840+Theesthan@users.noreply.github.com"
+          bash scripts/commit.sh
