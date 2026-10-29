@@ -39,6 +39,6 @@ On the side I make small games in C++ and Java, which is why this page looks lik
 
 <br/><br/>
 
-<sub>Title screen, player card and buttons are drawn by <a href="scripts/gen.py">scripts/gen.py</a> in a hand-made 5x7 pixel font and refreshed daily.<br/>Snake by <a href="https://github.com/Platane/snk">Platane/snk</a>, Pac-Man by <a href="https://github.com/abozanona/pacman-contribution-graph">abozanona/pacman-contribution-graph</a>.</sub>
+<sub>Title screen, player card and buttons are drawn by <a href="scripts/gen.py">scripts/gen.py</a> in a hand-made 5x7 pixel font and refreshed daily.</sub>
 
 </div>
