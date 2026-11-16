@@ -2,7 +2,7 @@
 
 <img src="assets/header.svg" width="100%" alt="EKO, AI / Full-stack Engineer" />
 
-<a href="https://xo-portfolio-eta.vercel.app"><img src="assets/btn-portfolio.svg" width="23%" alt="Portfolio" /></a>
+<a href="https://theesthan.space/"><img src="assets/btn-portfolio.svg" width="23%" alt="Portfolio" /></a>
 <a href="https://linkedin.com/in/theesthan"><img src="assets/btn-linkedin.svg" width="23%" alt="LinkedIn" /></a>
 <a href="mailto:theesthanking@gmail.com"><img src="assets/btn-email.svg" width="23%" alt="Email" /></a>
 <a href="https://x.com/ekonotpro"><img src="assets/btn-x.svg" width="23%" alt="X (Twitter)" /></a>
